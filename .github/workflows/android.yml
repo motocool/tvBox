@@ -1,7 +1,5 @@
- yaml
- name: Build APK
-    
-    on:
+name: Build APK
+on:
       push:
         branches:
           - main
